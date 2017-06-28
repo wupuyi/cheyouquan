@@ -1,0 +1,181 @@
+body{
+	margin: 0;
+}
+/*清浮动*/
+.fix::after{
+	content: " ";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+	
+}
+.headBar{
+	height: 210px;
+	background-image: url(../img/rs7.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.headImg{
+	float: right;
+	margin: 144px 16px 16px 12px;
+	position: relative;
+}
+.headBar img{
+	display: block;
+	width: 48px;
+	height: 48px;
+	border-radius: 4px;
+	border: 1px solid #FFFFFF;
+	/*position: relative;*/
+}
+.newMes{
+	display: block;
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	position: absolute;
+	left: 45px;
+	top: -5px;
+	border-radius: 5px;
+}
+.headName{
+	float: right;
+	font-size: 16px;
+	color: #FFFFFF;
+	line-height: 50px;
+	display: inline-block;
+	margin-top: 144px;
+	text-shadow: 1px 1px rgba(0,0,0,0.7);
+}
+
+
+.content{
+	padding: 16px 0;
+	border-bottom: 1px solid #eee;
+}
+.headImg2{
+	margin-left: 16px;
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+.rightCon{
+	margin-left: 64px;
+	margin-right: 16px;
+}
+.demo{
+	width: 100%;
+	float: right;
+}
+.userName{
+	font-size: 15px;
+	color: #41454D;
+}
+.demo p{
+	margin: 2px 0 0 0;
+	font-size: 14px;
+	color: #41454D;
+}
+.share{
+	float: left;
+	margin: 8px 0;
+	display: block;
+	width: 100%;
+	background-color: #F7F7F7;
+}
+.photoShare{
+	float: left;
+	margin: 8px 0;
+	display: block;
+	width: 100%;
+}
+.share img{
+	float: left;
+}
+.share p{
+	float: left;
+	line-height: 52px;
+	margin: 0;
+}
+.share img{
+	margin: 6px;
+}
+.zan{
+	margin-right: 50px;
+}
+.jiaohu span{
+	font-size: 12px;
+	color: #80858c;
+}
+.jiaohu img{
+	margin-right: 5px;
+}
+.shareTime{
+	margin-top: 8px;
+	font-size: 12px;
+	color: #ACB1B7;
+}
+.discuss {
+	margin-top: 8px;
+}
+.discussCon{
+	margin-top: 4px;
+	font-size: 14px;
+}
+.discuss a{
+	color: #5BAFFF;
+}
+.photo1{
+	display: block;
+	margin: 0;
+	width: 172px;
+	height: 172px;
+}
+.photo4{
+	display: block;
+	float: left;
+	margin: 0 4px 4px 0;
+	width: 134px;
+	height: 134px;
+}
+.photo7{
+	display: block;
+	float: left;
+	margin: 0 4px 4px 0;
+	width: 88px;
+	height: 88px;
+}
+.my-gallery img{
+	width: 100%;
+	height: 100%;
+}
+
+.fold{
+	float: left;
+	margin-top: 8px;
+	font-size: 12px;
+
+}
+.fold span{
+	display: block;
+	line-height: 12px;
+	color: #ACB1B7;
+}
+.fold img{
+	margin-left: 4px;
+}
+.open{
+	float: left;
+	margin-top: 8px;
+	font-size: 12px;
+
+}
+.open span{
+	display: block;
+	line-height: 12px;
+	color: #ACB1B7;
+}
+.open img{
+	margin-left: 4px;
+}

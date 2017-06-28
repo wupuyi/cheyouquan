@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>车友圈</title>
+		<link rel="stylesheet" href="css/myCss.css" />
+		<link rel="stylesheet" href="css/photoswipe.css" />
+		<link rel="stylesheet" href="css/default-skin/default-skin.css" />
+		
+	</head>
+
+	<body>
+		<div class="headBar fix">
+			<!--用户头像-->
+			<div class="headImg">
+				<img src="img/touxiang.jpg" alt="头像"/>
+				<span class="newMes"></span>
+			</div>
+			<!--用户名-->
+			<span class="headName">吴溥毅</span>
+		</div>
+		<div class="content fix">
+			<!--用户头像-->
+			<div class="headImg2">
+				<img src="img/touxiang2.jpg" width="100%" height="100%"/>
+			</div>
+			<div class="rightCon fix">
+				<div class="demo">
+					<span><strong>进击的吴溥毅</strong></span>
+					<p>百度一下，你就知道。</p>
+					<a class="share fix" href="https://www.baidu.com/"><img src="img/baidu.jpg" alt="百度logo" width="40px" height="40px" /><p>百度一下，你什么都能知道!</p></a>
+				    <div class="jiaohu">
+				    	<!--点赞-->
+				    	<span class="zan" id="zan" >
+				    		<img id="zanXin1" class="heart" src="img/heart.png" width="12px" height="12px"/>
+				    		<span id="zanShu1">9</span>
+				    	</span>
+				    	<!--评论-->
+				        <span class="pinglun" ><img src="img/pinglun.png" width="12px" height="12px"/>评论</span>
+				    </div>
+				    <div class="shareTime">
+				    	1小时前
+				    </div>
+				    <div class="discuss" id="discuss1">
+				    	<div class="discussCon discussCon1">
+				    		<a>来首七里香</a>：我要搜索杰伦欧巴。
+				    	</div>
+				    	<div class="discussCon discussCon2">
+				    		<a>秋香</a>：伯虎肯定会喜欢。。
+				    	</div>
+				    </div>
+				</div>
+			</div>
+		</div>
+		<!--例子2-->
+		<div class="content fix">
+			<!--用户头像-->
+			<div class="headImg2">
+				<img src="img/touxiang3.jpg" width="100%" height="100%"/>
+			</div>
+			<div class="rightCon fix">
+				<div class="demo">
+					<span class="userName"><strong>巴赫爱吃鱼</strong></span>
+					<p></p>
+					<div class="photoShare">
+						<div class="my-gallery">
+		                    <figure class="photo1">
+		                        <a href="img/timg.jpg" data-size="640x1136">
+		                            <img src="img/timg.jpg" />
+		                        </a>
+		                    </figure>
+		       			 </div>
+					</div>
+				    <div class="jiaohu">
+				    	<!--点赞-->
+				    	<span class="zan" id="zan">
+				    		<img id="zanXin2" class="heart" src="img/heart.png" width="12px" height="12px"/>
+				    		<span id="zanShu2">66</span>
+				    	</span>
+				    	<!--评论-->
+				        <span class="pinglun" ><img src="img/pinglun.png" width="12px" height="12px"/>评论</span>
+				    </div>
+				    <div class="shareTime">
+				    	1小时前
+				    </div>
+				    <div class="discuss" id="discuss2">
+				    	<div class="discussCon discussCon1">
+				    		<a>悉尼旧梦</a>：保时捷的儒雅最爱了。
+				    	</div>
+				    	<div class="discussCon discussCon2">
+				    		<a>伯虎</a>：秋香妹妹肯定会喜欢。。
+				    	</div>
+				    </div>
+				</div>
+			</div>
+		</div><!--例子2结束 -->
+		<!--例子3-->
+		<div class="content fix">
+			<!--用户头像-->
+			<div class="headImg2">
+				<img src="img/touxiang4.jpg" width="100%" height="100%"/>
+			</div>
+			<div class="rightCon fix">
+				<div class="demo">
+					<span><strong>小黑裙留白</strong></span>
+					<p></p>
+					<div class="photoShare">
+						<div class="my-gallery fix">
+		                    <figure class="photo4">
+		                        <a href="img/eg1.jpg" data-size="640x1136">
+		                            <img src="img/eg1_m.jpg" />
+		                        </a>
+		                    </figure>
+		                    <figure class="photo4">
+		                        <a href="img/eg2.jpg" data-size="640x1136">
+		                            <img src="img/eg2_m.jpg" />
+		                        </a>
+		                    </figure>
+		                    <figure class="photo4">
+		                        <a href="img/eg3.jpg" data-size="640x1136">
+		                            <img src="img/eg3_m.jpg" />
+		                        </a>
+		                    </figure>
+		                    <figure class="photo4">
+		                        <a href="img/eg4.jpg" data-size="640x1136">
+		                            <img src="img/eg4_m.jpg" />
+		                        </a>
+		                    </figure>
+		       			 </div>
+					</div>
+				    <div class="jiaohu">
+				    	<!--点赞-->
+				    	<span class="zan" id="zan">
+				    		<img id="zanXin3" class="heart" src="img/heart.png" width="12px" height="12px"/>
+				    		<span id="zanShu3">123</span>
+				    	</span>
+				    	<!--评论-->
+				        <span class="pinglun" ><img src="img/pinglun.png" width="12px" height="12px"/>评论</span>
+				    </div>
+				    <div class="shareTime">
+				    	1小时前
+				    </div>
+				    <div class="discuss" id="discuss3">
+				    	<div class="discussCon discussCon1">
+				    		<a>罗马假日</a>：哇，911。
+				    	</div>
+				    	<div class="discussCon discussCon2">
+				    		<a>你说1</a>：没有美女，差评。。
+				    	</div>
+				    	<div class="discussCon discussCon3">
+				    		<a>伊泽瑞尔</a>：是时候表演真正的记述了。。
+				    	</div>
+				    	<div class="discussCon discussCon4">
+				    		<a>安妮</a>：你看见我的小熊了吗？
+				    	</div>
+				    </div>
+				</div>
+			</div>
+		</div><!--例子3结束 -->
+		<!--例子4-->
+		<div class="content fix">
+			<!--用户头像-->
+			<div class="headImg2">
+				<img src="img/touxiang5.jpg" width="100%" height="100%"/>
+			</div>
+			<div class="rightCon fix">
+				<div class="demo">
+					<span><strong>Hey，白</strong></span>
+					<p></p>
+					<div class="photoShare">
+						<div class="my-gallery fix">
+		                    <figure class="photo7">
+		                        <a href="img/eg1.jpg" data-size="640x1136">
+		                            <img src="img/eg1_m.jpg" />
+		                        </a>
+		                    </figure>
+		                    <figure class="photo7">
+		                        <a href="img/eg2.jpg" data-size="640x1136">
+		                            <img src="img/eg2_m.jpg" />
+		                        </a>
+		                    </figure>
+		                    <figure class="photo7">
+		                        <a href="img/eg3.jpg" data-size="640x1136">
+		                            <img src="img/eg3_m.jpg" />
+		                        </a>
+		                    </figure>
+		                    <figure class="photo7">
+		                        <a href="img/eg4.jpg" data-size="640x1136">
+		                            <img src="img/eg4_m.jpg" />
+		                        </a>
+		                    </figure>
+		                    <figure class="photo7">
+		                        <a href="img/eg5.jpg" data-size="640x1136">
+		                            <img src="img/eg5_m.jpg" />
+		                        </a>
+		                    </figure>
+		                    <figure class="photo7">
+		                        <a href="img/eg6.jpg" data-size="640x1136">
+		                            <img src="img/eg6_m.jpg" />
+		                        </a>
+		                    </figure>
+		                    <figure class="photo7">
+		                        <a href="img/eg7.jpg" data-size="640x1136">
+		                            <img src="img/eg7_m.jpg" />
+		                        </a>
+		                    </figure>
+		       			 </div>
+					</div>
+				    <div class="jiaohu">
+				    	<!--点赞-->
+				    	<span class="zan" id="zan">
+				    		<img id="zanXin4" class="heart" src="img/heart.png" width="12px" height="12px"/>
+				    		<span id="zanShu4">666</span>
+				    	</span>
+				    	<!--评论-->
+				        <span class="pinglun" ><img src="img/pinglun.png" width="12px" height="12px"/>评论</span>
+				    </div>
+				    <div class="shareTime">
+				    	1小时前
+				    </div>
+				    <div class="discuss" id="discuss4">
+				    	<div class="discussCon discussCon1">
+				    		<a>伦敦旧时光</a>：居然有美女。
+				    	</div>
+				    	<div class="discussCon discussCon2">
+				    		<a>阿汤哥</a>：我开过的I8，最帅气。。
+				    	</div>
+				    	<div class="discussCon discussCon3">
+				    		<a>婉月</a>：喜欢兰博基尼。。
+				    	</div>
+				    	<div class="discussCon discussCon4">
+				    		<a>沉浮</a>：艺术品一般。
+				    	</div>
+				    	<div class="discussCon discussCon5">
+				    		<a>你有你忧伤</a>：怎么有这么美的车。
+				    	</div>
+				    	<div class="discussCon discussCon6">
+				    		<a>江河</a>：看什么看。。
+				    	</div>
+				    	<div class="discussCon discussCon7">
+				    		<a>莫奈乃</a>：人要有梦想。
+				    	</div>
+				    	<div class="discussCon discussCon8">
+				    		<a>小目标</a>：要先订个小目标，比如从买个五菱宏光开始。
+				    	</div>
+				    	<div class="discussCon discussCon9">
+				    		<a>李清照</a>：此情无计可消除。
+				    	</div>
+				    	<div class="discussCon discussCon10">
+				    		<a>安妮</a>：你看见我的小熊了吗。
+				    	</div>
+				    </div>
+				</div>
+			</div>
+		</div><!--例子4结束 -->	
+	
+	
+	
+	
+		<!--引入PhotoSwipe-->
+	    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+		<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+		
+		    <!-- Background of PhotoSwipe. 
+		         It's a separate element as animating opacity is faster than rgba(). -->
+		    <div class="pswp__bg"></div>
+		
+		    <!-- Slides wrapper with overflow:hidden. -->
+		    <div class="pswp__scroll-wrap">
+		
+		        <!-- Container that holds slides. 
+		            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+		            Don't modify these 3 pswp__item elements, data is added later on. -->
+		        <div class="pswp__container">
+		            <div class="pswp__item"></div>
+		            <div class="pswp__item"></div>
+		            <div class="pswp__item"></div>
+		        </div>
+		
+		        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+		        <div class="pswp__ui pswp__ui--hidden">
+		
+		            <div class="pswp__top-bar">
+		
+		                <!--  Controls are self-explanatory. Order can be changed. -->
+		
+		                <div class="pswp__counter"></div>
+		
+		                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+		
+		                <button class="pswp__button pswp__button--share" title="Share"></button>
+		
+		                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+		
+		                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+		
+		                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+		                <!-- element will get class pswp__preloader--active when preloader is running -->
+		                <div class="pswp__preloader">
+		                    <div class="pswp__preloader__icn">
+		                      <div class="pswp__preloader__cut">
+		                        <div class="pswp__preloader__donut"></div>
+		                      </div>
+		                    </div>
+		                </div>
+		            </div>
+		
+		            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+		                <div class="pswp__share-tooltip"></div> 
+		            </div>
+		
+		            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+		            </button>
+		
+		            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+		            </button>
+		
+		            <div class="pswp__caption">
+		                <div class="pswp__caption__center"></div>
+		            </div>
+		
+		        </div>
+		
+		    </div>
+		
+		</div>
+        
+        <!--引入PhotoSwipe-->
+        <script type="text/javascript" src="js/photoswipe.min.js" ></script>
+		<script type="text/javascript" src="js/photoswipe-ui-default.min.js" ></script>
+        <script type="text/javascript" src="js/chajian.js" ></script>
+		<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+			
+			$(document).ready(function()
+			{
+		   
+		    //点赞以及取消点赞
+			$('body').on("click",'.heart',function()
+		    {
+		    	
+		    	var a=$(this).attr("id");
+		    	var zanXin=$(this).attr("src");
+		    	var b=a.split("zanXin");
+		        var messageID=b[1];
+		        var zanShu=$("#zanShu"+messageID).text();
+				if (zanXin==("img/heart.png")) {
+					//点赞红心，赞数+1
+					$("#zanXin"+messageID).attr("src","img/yizan.png");
+					zanShu++;
+					$("#zanShu"+messageID).text(zanShu);
+				} else{
+					//取消点赞，赞数-1
+					$("#zanXin"+messageID).attr("src","img/heart.png");
+					zanShu--;
+					$("#zanShu"+messageID).text(zanShu);
+				}
+		    });
+		    
+		    
+		    
+		    //判断评论条数，超过三条隐藏
+		    var disNum=$("div").children("div.discuss").length;
+		    var n=1;
+		    for(n;n<=disNum;n++){
+		    	var l=$("#discuss"+n).children("div.discussCon").length;
+		    if (l>3) {
+		    	//添加查看全部评论按钮
+		    	$("#discuss"+n).append('<div class="open" id="open'+n+'"><span>查看全部共'+l+'评论<img src="img/zhankai.png" width="12px" height="12px"/></span></div>');
+		    	var m=4
+		    	//隐藏多余评论
+		    	for (m;m<=l;m++) {
+		    		$("#discuss"+n).children("div .discussCon"+m).css("display","none");
+		    	}
+		    }
+		    }
+		    
+		    //展开评论
+		    $('body').on("click",'.open',function()
+		    {
+		    	
+		    	var a=$(this).attr("id");
+		    	$(this).css("display","none");//隐藏展开
+		    	var openId=a.split("open");
+		        var messageID=openId[1];
+		        //添加折叠
+		    	$("#discuss"+messageID).append('<div class="fold" id="fold'+messageID+'"><span>收起<img src="img/zhedie.png" width="12px" height="12px"/></span></div>');
+		        var par="discuss"+messageID;
+		        var num=$("#"+par).children().length;
+		        //显示评论
+		        var i=4;
+		        for (i;i<num;i++) {
+		        	$("#"+par).children("div .discussCon"+i).fadeIn();
+		        }
+				
+		    });
+
+			//折叠评论
+		    $('body').on("click",'.fold',function()
+		    {
+		    	var a=$(this).attr("id");		
+		    	//移除折叠
+		    	$(this).remove();
+		    	var foldId=a.split("fold");
+		        var messageID=foldId[1];
+		        //显示展开
+		        $("#open"+messageID).css("display","block");
+		        var par="discuss"+messageID;
+		        var num=$("#"+par).children().length;
+		        var i=4;
+		        //隐藏评论
+		        for (i;i<num;i++) {
+		        	$("#"+par).children("div .discussCon"+i).fadeOut();
+		        }
+				
+		    });
+		    });
+		</script>
+	</body>
+</html>
